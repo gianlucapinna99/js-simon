@@ -12,7 +12,7 @@ function generaNumeri() {
     var numeriDiv = document.getElementById("numeri");
     numeriDiv.innerHTML = "";
     for (var i = 0; i < numeri.length; i++) {
-      numeriDiv.innerHTML += "<span>" + numeri[i] + "</span>";
+      numeriDiv.innerHTML += "<span>" + numeri[i] + " </span>";
     }
   
 
@@ -35,7 +35,7 @@ function generaNumeri() {
           numeriIndovinati.push(numeriUtente[i]);
         }
       }
-      
+
       alert("Hai indovinato " + numeriIndovinati.length + " numeri: " + numeriIndovinati.join(", "));
     }, 3000);
   }
